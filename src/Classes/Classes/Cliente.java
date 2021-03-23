@@ -1,10 +1,10 @@
 package Classes;
 
 public class Cliente {
-    private String nome;
-    private String cpf;
-    private Conta conta;
-    private double valor;
+    protected String nome;
+    protected String cpf;
+    protected Conta conta;
+    protected double valor;
 
     //#region
     public String getNome() {

@@ -4,7 +4,6 @@ public class ClientePremium extends Cliente{
 
     public ClientePremium(String nome, Conta conta) {
         super(nome, conta);
-        //TODO Auto-generated constructor stub
     }
 
     private double limiteCredito;
